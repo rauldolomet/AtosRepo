@@ -2,7 +2,11 @@ from crypt import methods
 from operator import methodcaller
 from flask import Flask
 from flask import request
-app=Flask(__name__)
+from app import create_app
+
+if __name__=='__main__':
+    create_app()
+ #app=Flask(__name__)
 
 # @app.route("/")
 # def hello_world():
