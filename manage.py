@@ -1,7 +1,5 @@
-from crypt import methods
-from operator import methodcaller
-from flask import Flask
-from flask import request
+# from flask import Flask
+# from flask import request
 from app import create_app
 
 if __name__=='__main__':
